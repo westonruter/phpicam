@@ -1,0 +1,2 @@
+# Add this to your /etc/rc.local to start the phpicam ngrok service on bootup
+su - pi -c "ngrok -log=stdout start phpicam > /dev/null &" || echo "Failed to start"

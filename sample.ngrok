@@ -1,0 +1,6 @@
+tunnels:
+  phpicam:
+    auth: "phpicam:longpassword"
+    subdomain: "phpicam-foobarbaz"
+    proto:
+      http: 80
